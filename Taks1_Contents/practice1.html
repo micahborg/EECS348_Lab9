@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <!-- Make a profile page that is styled with CSS. Have fun with this. In your profile, you need to
+    include your name, a photo, and contact info and showcase anything good for your professional
+    career, e.g., courses, projects, and work experience... You could also use JS and PHP in this
+    practice. At the same time, you must include at least one link and video. -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(227, 227, 227);
+        }
+
+        /* Style the header */
+        header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+        }
+
+        /* Container for flexboxes */
+        section {
+        display: -webkit-flex;
+        display: flex;
+        }
+
+        /* Style the navigation menu */
+        nav {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        background: #ccc;
+        padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+        list-style-type: none;
+        padding: 0;
+        }
+
+        /* Style the content */
+        article {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        background-color: #f1f1f1;
+        padding: 10px;
+        }
+
+        /* Style the footer */
+        footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        }
+
+        img {
+            border:rgb(227, 227, 227) 5px solid;
+        }
+    </style>
+    <head>
+        <title>Micah Borghese</title>
+    </head>
+    <body>
+        <header>
+            <h1>Micah Borghese</h1>
+        </header>
+
+        <section>
+            <nav>
+                <h3>Social Profiles:</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/micah-borghese/">LinkedIn</a></li>
+                    <li><a href="https://www.github.com/micahborg">GitHub</a></li>
+                    <li><a href="https://micahborg.github.io/web/">My Real Website</a></li>
+                    <li><a href="https://www.instagram.com/micahborghese/">Instagram</a></li>
+                </ul>
+                <h3>Contact Info:</h3>
+                <p>KU Email: <a href="mailto:micahborghese@ku.edu">micahborghese@ku.edu</a></p>
+                <p>Gmail: <a href="mailto:micahborghese@gmail.com">micahborghese@gmail.com</a></p>
+            </nav>
+            <article>
+                <p>
+                    My name is <strong>Micah</strong> and I'm a sophomore at <a href="http://www.ku.edu">KU</a> studying <em>Computer Science</em> and minoring in <em>Mathematics</em>. I'm from <em>Overland Park, KS</em>.
+                    <br><br>
+                    I'm not sure what field I want to go into, but I'm interested in <em>software engineering</em> and <em>data science</em>. I love statistics and thinking about ways to solve problems using data.
+                    <br><br>
+                    I currently work as a <em>undergraduate teaching assistant</em> with the <em>Kansas Algebra Problem</em> helping college students achieve success in lower level math courses. I'm also an incoming <em>software engineer</em> at <em>Netsmart Technologies</em> for the summer of 2023.
+                    <br><br>
+                    To the side is my headshot and next to that is the <em>study with me</em> video that I watched while creating this website.
+                </p>
+                
+            </article>
+            <img src="headshot.jpg" alt="headshot" width="230" height="340">
+            <iframe width="580" height="340" align="right" src="https://www.youtube.com/embed/VdmLOtn8AEo?start=930&autoplay=1" title="YouTube video player" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+            </section>
+        <footer>
+            <p>Created for EECS 348 in April 2023</p>
+        </footer>
+    </body>
+</html>
